@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://192.168.1.111:9633; DatabaseName=hengshui_jiliang
+    username: sa
+    password: 9j8k7l
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
